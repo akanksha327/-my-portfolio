@@ -1,0 +1,127 @@
+* {
+    margin:0;
+    padding:0;
+}
+.main{
+    width: 100%;
+    background: url(port3.jpg);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    position:relative;
+    font-family:sans-serif 
+    
+
+ } 
+
+.navbar {
+    width:86%;
+    display:flex;
+    margin:auto;
+    padding :15px 0;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+
+}
+ul {
+    margin-top: -4% ;
+}
+ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding:10px 16px;
+    color: rgb(58, 11, 56);
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(107, 10, 60);
+    margin-top:-3%;
+    transition: .4s ease ;
+}
+ul li a:hover{
+    color: blueviolet;
+}
+.info {
+    position: absolute;
+    top: 50%;
+    left: 3%;       /* keep it on the left side with some margin */
+    transform: translateY(-50%);
+    color: rgb(31, 81, 87);
+}
+.info {
+    margin-top: 5%;
+    margin-left: 5%;       /* keep it on the left side with some margin */
+   
+}
+.info h1{
+    font-size: 65px;
+    color: rgb(26, 152, 135);
+
+}
+.info h3{
+    font-size:18px ;
+    letter-spacing:1px;
+    line-height:24px;
+}
+.info span{
+    color: rgb(231, 10, 191);
+}
+.info a{
+    text-decoration: none;
+    color: #4d0d0d;
+    background: rgb(178, 215, 220);
+    margin: 26px 0;
+    padding:10px;
+    border-radius: 10px;
+    display:inline-block;
+    transition: .4s ease;
+}
+.info a:hover{
+    background: aquamarine;
+}
+.image{
+    width: 30%;
+    height:60%;
+    position:absolute;
+    right:0%;
+    bottom:0;
+}
+.image img{
+    position:absolute;
+    height:140%;
+    left:40%;
+    transform:translateX(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+.image:hover.mygirl{
+    left:55%;
+
+}
+.icons {
+    
+    text-decoration: none;
+    color:#000;
+}
+.icons ion-icon{
+    margin-left: 7%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+}
+.icons ion-icon:hover{
+    color: rgb(38, 109, 140);
+}
+
+
